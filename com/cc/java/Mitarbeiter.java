@@ -46,6 +46,6 @@ public class Mitarbeiter {
     }
 
     public String getInfo() {
-        return "\033[0;42m\033[1;34m" + this.getFirstName() + " " + this.getFamilyName() + "\t" + " ist als " + this.getRole() + " im Jahr " +  this.getYearOfEntry() + " in das Unternehmen eingetreten.";
+        return "\033[0;42m\033[1;35m" + this.getFirstName()  + " " + this.getFamilyName() + "\t" + "\u001b[31m" + " ist als " + this.getRole() + " im Jahr " +  this.getYearOfEntry() + " in das Unternehmen eingetreten.";
     }   
 }
