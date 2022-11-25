@@ -4,8 +4,10 @@ public class App {
     
     public static void main(String[] args) {
      
+        // EmpfangeDaten
     String [] [] mitarbeiterArray = {{"Henry","Ford","CEO","1890"},{"Bill","Gates","CIO","1989"},{"Elon","Musk","CD","2013"}};
-
+        
+        // Erzeuge Speicher für Instanzen
     Mitarbeiter [] mitarbeiter;
     mitarbeiter = new Mitarbeiter [mitarbeiterArray.length];
     
